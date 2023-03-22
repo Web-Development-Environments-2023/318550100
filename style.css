@@ -1,8 +1,10 @@
+/* Style the background */
 body {
 	background-image: url(images/background.jpg);
 	background-size: cover;
 }
 
+/* Style the paragraphs */
 p {
 	color: black;
 	font-weight: bold;
@@ -10,14 +12,28 @@ p {
 	font-size: 23px;
 }
 
-.section h1 {
+/* Style h1 headings in welcomeSection class */
+.welcomeSection h1 {
+	text-align: center;
+	font-family: 'Brush Script MT';
+	color: #0473a3;
+	background-color: #bbdcf3;
+	box-shadow: 0 0 14px 8px rgba(0, 140, 186, 0.5);
+	font-size: 80px;
+	margin-bottom: 20px;
+	margin-top: 80px;
+  }
+
+/* Style h2 headings in section class */
+.section h2 {
 	text-align: center;
 	font-family: Calibri;
+	font-weight: bold;
 	font-size: 50px;
 	margin: 0
   }
 
-  /* Center the divider.png */
+  /* Style the dividers */
 .centerDividers {
 	display: block;
 	margin-left: auto;
@@ -92,6 +108,7 @@ p {
 	box-shadow: 0 0 14px 8px rgba(0, 140, 186, 0.5);
   }
 
+/* Style qr code */
 .qrCode {
 	position: relative;
 }
@@ -100,5 +117,40 @@ p {
 	box-shadow: 0 0 14px 8px rgba(0, 140, 186, 0.5);
 }
 
+/* Style inputs with type="text"/type="email", select elements and textareas */
+input[type=text], input[type=email], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 14px;
+	resize: vertical
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+	background-color: #0436aa;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  /* Change submit button color on hover */
+  input[type=submit]:hover {
+	background-color: #456fa0;
+  }
+  
+  /* Add the contact form a background color and padding */
+  .container {
+	margin: auto;
+	width: 500px;
+	border-radius: 5px;
+	background-color: #a8cce9;
+	padding: 20px;
+  }
 
   

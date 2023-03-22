@@ -17,29 +17,33 @@
 <li><a href="#contact">Contact Me</a></li>
 </ul>
 </div>
-		  
+
+<section id="welcome" class="welcomeSection">
+<br/>
+<br/>
+<br/>
+<div style="text-align: center;">
+<h1>Welcome to my site!</h1>
+<img height="320px" width="180px" src="images/welcomePhoto.png">
+</div>
+</section>
+
 <section id="about" class="section">
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-<h1>About Me</h1>
+<h2>About Me</h2>
 <img src="images/divider.png" class="centerDividers">
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<p>My name is Carl Fredricksen and I am 78 years old.
+  <br/>
+  I work as a balloon salesman and I have tied thousands of helium balloons to my house and drifted
+  <br/>
+  for the wilds of South America in order to fulfill my promise to my dear Ellie. Once airbone, I discovered
+  <br/>
+  an unexpected traveling companion - an eight year old kid named Russell who joined me on the adventure.</p>
 </section>
 
 <section id="photos" class="section">
@@ -48,7 +52,7 @@
 <br/>
 <br/>
 <br/>
-<h1>My Photos</h1>
+<h2>My Photos</h2>
 <img src="images/divider.png" class="centerDividers">
 <br/>
 <div class="photoGallery">
@@ -86,7 +90,7 @@
 <br/>
 <br/>
 <br/>
-<h1>My Playlist</h1>
+<h2>My Playlist</h2>
 <img src="images/divider.png" class="centerDividers">
 <br/>
 <br/>
@@ -105,14 +109,14 @@
 <br/>
 <br/>
 <br/>
-<h1>Give me a like</h1>
+<h2>Give me a like</h2>
 <img src="images/divider.png" class="centerDividers">
 <br/>
 <br/>
 <br/>
 <br/>
 <div style="text-align: center;">
-  <img height=200px width=200px src="images/like.png">
+  <img height="200px" width="200px" src="images/like.png">
   <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FUPCarlFredricksen%2F&width=450&layout&action&size&share=false&height=35&appId" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 </div>
 <br/>
@@ -130,7 +134,7 @@
 <br/>
 <br/>
 <br/>
-<h1>Scan my code</h1>
+<h2>Scan my code</h2>
 <img src="images/divider.png" class="centerDividers">
 <br/>
 <br/>
@@ -138,7 +142,7 @@
 <div class="qrCode" style="text-align: center;">
 <img src="images/QrCode.png">
 </div>
-<p> Scan the QR code and share my site to your friends! </p>
+<p> Scan the QR code and share my site with your friends! </p>
 <br/>
 <br/>
 <br/>
@@ -151,7 +155,7 @@
 <br/>
 <br/>
 <br/>
-<h1>Q&A</h1>
+<h2>Q&A</h2>
 <img src="images/divider.png" class="centerDividers">>
 <br/>
 <br/>
@@ -175,20 +179,43 @@
 <br/>
 <br/>
 <br/>
-<h1>Contact Me</h1>
+<h2>Contact Me</h2>
 <img src="images/divider.png" class="centerDividers">
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+<div class="container">
+  <form action="mailto: kalanits@post.bgu.ac.il" method="POST" enctype="text/plain">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..." required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email..." required >
+
+    <label for="emoji">Choose an emoji</label>
+    <select id="emoji" name="emoji">
+      <option value="😀">😀</option>
+      <option value="😂">😂</option>
+      <option value="😊">😊</option>
+      <option value="😠">😠</option>
+      <option value="😕">😕</option>
+      <option value="😐">😐</option>
+      <option value="😲">😲</option>
+      <option value="🤩">🤩</option>
+      <option value="😍">😍</option>
+      <option value="😎">😎</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write something..." style="height:200px" required></textarea>
+
+    <input type="submit" value="Send">
+
+  </form>
+</div>
 <br/>
 <br/>
 <br/>
