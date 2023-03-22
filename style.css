@@ -1,5 +1,5 @@
 body {
-	background-image: url(background.jpg);
+	background-image: url(images/background.jpg);
 	background-size: cover;
 }
 
@@ -16,14 +16,15 @@ p {
 	margin: 0
   }
 
-.center {
+  /* Center the divider.png */
+.centerDividers {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 }
 
-/* make the navigation bar fixed and stay on top and in front */
+/* Make the navigation bar fixed and stay on top and in front */
 .topnav {
 	float: left;
 	text-align: center;
